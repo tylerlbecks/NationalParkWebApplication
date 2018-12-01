@@ -1,0 +1,1 @@
+SELECT * FROM weather WHERE parkcode = 'GNP' ORDER BY fivedayforecastvalue

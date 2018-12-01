@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+#headerImg {
+	max-width: 100%;
+	max-height: 175px
+}
+
+.yellow {
+	background-color: #ddff99;
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #1f611f;
+}
+
+li {
+	float: left
+}
+
+li a {
+	display: block;
+	color: #30CE0C;
+	text-align: center;
+	padding: 15px;
+	padding-left: 20px;
+	padding-right: 20px; 
+	text-decoration : none;
+	font-size: 23px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #30CE0C;
+	color: #5D3B05;
+}
+
+.backgroundImg {
+	width: 100%;
+	height: auto;
+	min-width: 100%;
+	min-height: 100%;
+	position: absolute;
+}
+
+.backgroundImg::before {
+	background: url("../img/treesBG.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100%;
+	opacity: 0.4;
+	z-index: -2;
+	content: "";
+	position: absolute;
+	width: 100%;
+	overflow: hidden;
+	background-position: center;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif
+}
+
+#parkSum {
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 150ch;
+	min-width: 20ch
+}
+
+#parkImage {
+	max-height: 270px;
+	max-width:100%;
+	padding-left: 20px;
+	padding-right: 20px
+}
+
+#parkName {
+	color: black;
+	min-width: 15ch
+}
+
+#detailImg {
+	max-width: 100%;
+	height: auto
+}
+
+.surveyForm {
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto
+}
+
+#quoteWidth{
+  	max-width:80ch;
+  	margin-left:auto;
+  	margin-right:auto
+}
+
+.center {
+	text-align: center;
+}
+
+.tablePadding {
+	padding-bottom: 10px; padding-left : 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.centerTable {
+	margin: 0px auto;
+	width:60%
+}
+
+.floatLeft {
+	float: left
+}
+
+.weatherWidth {
+	width: 300px;
+	margin: 0 auto
+}
+
+button {
+	width: 90px;
+	
+}
+
+.container {
+	align-items: center;
+}
+
